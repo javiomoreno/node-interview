@@ -4,7 +4,7 @@
     npm start
 
 -- Lista de endpoints
-    Cargar la informacion en la base de datos
+    1. Importación de data. (Para cargar la informacion en la base de datos)
      > GET http://localhost:3000/loadData
 
     2. Filtrar data. (Para consultar por rango de precio y numero de habitacion)
