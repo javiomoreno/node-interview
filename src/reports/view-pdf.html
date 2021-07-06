@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <mate charest="utf-8" />
+    <title>Reporte de coordenadas</title>
+  </head>
+  <body>
+    <h1>Lista de registros</h1>
+    <ul>
+      {{#each rows}}
+      <li>Latitud: {{this.Latitud}}</li>
+      <li>Longitud: {{this.Longitud}}</li>
+      <li>ID: {{this.ID}}</li>
+      <li>Titulo: {{this.Titulo}}</li>
+      <li>Tipo: {{this.Tipo}}</li>
+      <li>Precio: {{this.Precio}}</li>
+      <li>Habitaciones: {{this.Habitaciones}}</li>
+      <br />
+      {{/each}}
+    </ul>
+  </body>
+</html>
